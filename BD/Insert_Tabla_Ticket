@@ -1,0 +1,231 @@
+INSERT INTO TICKET (id, tn, queue_id, type_id, service_id, ticket_priority_id, centro, user_id, create_by, create_time, title) VALUES
+(1, 'S145001', 1, 2, 3, 1, 1, 1, 2, '2024-05-01 10:23:34', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Quirófano'),
+(2, 'S145002', 2, 3, 5, 2, 2, 2, 3, '2024-05-02 14:47:15', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Consultas Externas'),
+(3, 'S145003', 3, 5, 7, 3, 3, 3, 4, '2024-05-03 09:05:45', 'Problema en Hospital de Manacor en el servicio de Gestión de Peticiones'),
+(4, 'S145004', 4, 8, 4, 4, 4, 4, 5, '2024-05-04 17:30:12', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Admisión'),
+(5, 'S145005', 5, 9, 6, 5, 5, 5, 6, '2024-05-05 08:15:29', 'Tarea en Hospital Can Mises en el servicio de Gestión Usuarios'),
+(6, 'S145006', 6, 10, 2, 4, 6, 6, 7, '2024-05-06 11:45:03', 'Solicitud de Mejora en Servicios Centrales en el servicio de Enfermería'),
+(7, 'S145007', 7, 2, 1, 5, 1, 7, 8, '2024-05-07 12:34:45', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de SISN2'),
+(8, 'S145008', 1, 3, 2, 1, 2, 8, 9, '2024-05-08 16:00:00', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Enfermería'),
+(9, 'S145009', 2, 5, 3, 2, 3, 9, 10, '2024-05-09 09:20:31', 'Problema en Hospital de Manacor en el servicio de Quirófano'),
+(10, 'S145010', 3, 8, 4, 3, 4, 10, 1, '2024-05-10 13:47:25', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Admisión'),
+(11, 'S145011', 4, 9, 5, 4, 5, 1, 2, '2024-05-11 10:22:14', 'Tarea en Hospital Can Mises en el servicio de Consultas Externas'),
+(12, 'S145012', 5, 10, 6, 5, 6, 2, 3, '2024-05-12 12:34:56', 'Solicitud de Mejora en Servicios Centrales en el servicio de Gestión Usuarios'),
+(13, 'S145013', 6, 2, 7, 1, 1, 3, 4, '2024-05-13 14:45:33', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Gestión de Peticiones'),
+(14, 'S145014', 7, 3, 1, 2, 2, 4, 5, '2024-05-14 16:50:00', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de SISN2'),
+(15, 'S145015', 1, 5, 2, 3, 3, 5, 6, '2024-05-15 09:34:27', 'Problema en Hospital de Manacor en el servicio de Enfermería'),
+(16, 'S145016', 2, 8, 3, 4, 4, 6, 7, '2024-05-16 11:23:45', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Quirófano'),
+(17, 'S145017', 3, 9, 4, 5, 5, 7, 8, '2024-05-17 13:47:10', 'Tarea en Hospital Can Mises en el servicio de Admisión'),
+(18, 'S145018', 4, 10, 5, 1, 6, 8, 9, '2024-05-18 15:35:40', 'Solicitud de Mejora en Servicios Centrales en el servicio de Consultas Externas'),
+(19, 'S145019', 5, 2, 6, 2, 1, 9, 10, '2024-05-19 08:15:50', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Gestión Usuarios'),
+(20, 'S145020', 6, 3, 7, 3, 2, 10, 1, '2024-05-20 09:50:25', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Gestión de Peticiones'),
+(21, 'S145021', 7, 5, 1, 4, 3, 1, 2, '2024-05-21 11:30:45', 'Problema en Hospital de Manacor en el servicio de SISN2'),
+(22, 'S145022', 1, 8, 2, 5, 4, 2, 3, '2024-05-22 13:40:30', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Enfermería'),
+(23, 'S145023', 2, 9, 3, 1, 5, 3, 4, '2024-05-23 15:23:05', 'Tarea en Hospital Can Mises en el servicio de Quirófano'),
+(24, 'S145024', 3, 10, 4, 2, 6, 4, 5, '2024-05-24 08:12:50', 'Solicitud de Mejora en Servicios Centrales en el servicio de Admisión'),
+(25, 'S145025', 4, 2, 5, 3, 1, 5, 6, '2024-05-25 09:55:15', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Consultas Externas'),
+(26, 'S145026', 5, 3, 6, 4, 2, 6, 7, '2024-05-26 10:43:25', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Gestión Usuarios'),
+(27, 'S145027', 6, 5, 7, 5, 3, 7, 8, '2024-05-27 11:25:45', 'Problema en Hospital de Manacor en el servicio de Gestión de Peticiones'),
+(28, 'S145028', 7, 8, 1, 1, 4, 8, 9, '2024-05-28 12:30:55', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de SISN2'),
+(29, 'S145029', 1, 9, 2, 2, 5, 9, 10, '2024-05-29 13:50:25', 'Tarea en Hospital Can Mises en el servicio de Enfermería'),
+(30, 'S145030', 2, 10, 3, 3, 6, 10, 1, '2024-05-30 14:12:40', 'Solicitud de Mejora en Servicios Centrales en el servicio de Quirófano'),
+(31, 'S145031', 3, 2, 4, 4, 1, 1, 2, '2024-05-31 09:35:00', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Admisión'),
+(32, 'S145032', 4, 3, 5, 5, 2, 2, 3, '2024-06-01 10:47:15', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Consultas Externas'),
+(33, 'S145033', 5, 5, 6, 1, 3, 3, 4, '2024-06-02 11:58:50', 'Problema en Hospital de Manacor en el servicio de Gestión Usuarios'),
+(34, 'S145034', 6, 8, 7, 2, 4, 4, 5, '2024-06-03 12:34:00', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Gestión de Peticiones'),
+(35, 'S145035', 7, 9, 1, 3, 5, 5, 6, '2024-06-04 13:12:45', 'Tarea en Hospital Can Mises en el servicio de SISN2'),
+(36, 'S145036', 1, 10, 2, 4, 6, 6, 7, '2024-06-05 14:22:30', 'Solicitud de Mejora en Servicios Centrales en el servicio de Enfermería'),
+(37, 'S145037', 2, 2, 3, 5, 1, 7, 8, '2024-06-06 15:35:10', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Quirófano'),
+(38, 'S145038', 3, 3, 4, 1, 2, 8, 9, '2024-06-07 16:23:45', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Admisión'),
+(39, 'S145039', 4, 5, 5, 2, 3, 9, 10, '2024-06-08 08:40:50', 'Problema en Hospital de Manacor en el servicio de Consultas Externas'),
+(40, 'S145040', 5, 8, 6, 3, 4, 10, 1, '2024-06-09 09:12:30', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Gestión Usuarios'),
+(41, 'S145041', 6, 9, 7, 4, 5, 1, 2, '2024-06-10 10:30:20', 'Tarea en Hospital Can Mises en el servicio de Gestión de Peticiones'),
+(42, 'S145042', 7, 10, 1, 5, 6, 2, 3, '2024-06-11 11:45:10', 'Solicitud de Mejora en Servicios Centrales en el servicio de SISN2'),
+(43, 'S145043', 1, 2, 2, 1, 1, 3, 4, '2024-06-12 12:23:45', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de Enfermería'),
+(44, 'S145044', 2, 3, 3, 2, 2, 4, 5, '2024-06-13 13:50:35', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Quirófano'),
+(45, 'S145045', 3, 5, 4, 3, 3, 5, 6, '2024-06-14 14:23:00', 'Problema en Hospital de Manacor en el servicio de Admisión'),
+(46, 'S145046', 4, 8, 5, 4, 4, 6, 7, '2024-06-15 15:12:20', 'Solicitud de Cambio en Hospital Mateu Orfila en el servicio de Consultas Externas'),
+(47, 'S145047', 5, 9, 6, 5, 5, 7, 8, '2024-06-16 08:34:15', 'Tarea en Hospital Can Mises en el servicio de Gestión Usuarios'),
+(48, 'S145048', 6, 10, 7, 1, 6, 8, 9, '2024-06-17 09:12:45', 'Solicitud de Mejora en Servicios Centrales en el servicio de Gestión de Peticiones'),
+(49, 'S145049', 7, 2, 1, 2, 1, 9, 10, '2024-06-18 10:23:30', 'Incidente en Hospital Universitario Son Llàtzer en el servicio de SISN2'),
+(50, 'S145050', 1, 3, 2, 3, 2, 10, 1, '2024-06-19 11:45:00', 'Solicitud de Servicio en Hospital Comarcal de Inca en el servicio de Enfermería');
+
+-- Correcciones a la tabla ticket de los 50 primeros registros
+UPDATE TICKET
+SET tn = SUBSTRING(tn, 2);
+
+UPDATE TICKET SET ticket_state_id = 
+  CASE 
+    WHEN id % 6 = 1 THEN 1 
+    WHEN id % 6 = 2 THEN 2 
+    WHEN id % 6 = 3 THEN 4 
+    WHEN id % 6 = 4 THEN 6 
+    WHEN id % 6 = 5 THEN 11 
+    ELSE 12 
+  END;
+
+-- Se introducen más registros
+INSERT INTO TICKET (id, tn, title, queue_id, type_id, service_id, ticket_priority_id, ticket_state_id, centro, user_id, create_by, create_time) VALUES
+(51, '145051', 'Incidencia en Son Llàtzer en el servicio de Admisión', 5, 2, 4, 3, 4, 1, 7, 8, '2024-06-20 08:00:00'),
+(52, '145052', 'Incidencia en Son Llàtzer en el servicio de Quirófano', 5, 2, 5, 3, 4, 1, 3, 1, '2024-06-20 08:10:00'),
+(53, '145053', 'Incidencia en Son Llàtzer en el servicio de Consultas Externas', 3, 2, 3, 3, 4, 1, 2, 3, '2024-06-20 08:20:00'),
+(54, '145054', 'Incidencia en Son Llàtzer en el servicio de Enfermería', 5, 2, 2, 3, 4, 1, 6, 8, '2024-06-20 08:30:00'),
+(55, '145055', 'Incidencia en Son Llàtzer en el servicio de Gestión de Peticiones', 4, 2, 7, 3, 4, 1, 4, 2, '2024-06-20 08:40:00'),
+(56, '145056', 'Incidencia en Son Llàtzer en el servicio de Gestión Usuarios', 5, 2, 6, 3, 4, 1, 5, 4, '2024-06-20 08:50:00'),
+(57, '145057', 'Incidencia en Son Llàtzer en el servicio de SISN2', 3, 2, 1, 4, 4, 1, 8, 5, '2024-06-20 09:00:00'),
+(58, '145058', 'Incidencia en Son Llàtzer en el servicio de Admisión', 4, 2, 4, 4, 4, 1, 9, 6, '2024-06-20 09:10:00'),
+(59, '145059', 'Problema en Son Llàtzer en el servicio de Quirófano', 5, 5, 5, 4, 4, 1, 1, 7, '2024-06-20 09:20:00'),
+(60, '145060', 'Problema en Son Llàtzer en el servicio de Gestión de Peticiones', 4, 5, 7, 4, 4, 1, 10, 1, '2024-06-20 09:30:00'),
+(61, '145061', 'Solicitud de Servicio en Son Llàtzer en el servicio de Consultas Externas', 3, 3, 3, 3, 4, 1, 7, 8, '2024-06-20 09:40:00'),
+(62, '145062', 'Solicitud de Servicio en Son Llàtzer en el servicio de Gestión Usuarios', 5, 3, 6, 3, 4, 1, 2, 9, '2024-06-20 09:50:00'),
+(63, '145063', 'Solicitud de Servicio en Son Llàtzer en el servicio de Quirófano', 3, 3, 5, 3, 4, 1, 3, 10, '2024-06-20 10:00:00'),
+(64, '145064', 'Solicitud de Cambio en Son Llàtzer en el servicio de Gestión de Peticiones', 5, 8, 7, 3, 4, 1, 4, 1, '2024-06-20 10:10:00'),
+(65, '145065', 'Solicitud de Cambio en Son Llàtzer en el servicio de Gestión Usuarios', 3, 8, 6, 3, 4, 1, 5, 2, '2024-06-20 10:20:00');
+
+INSERT INTO TICKET (id, tn, title, queue_id, type_id, service_id, ticket_priority_id, ticket_state_id, centro, user_id, create_by, create_time) VALUES
+(66, '145066', 'Incidencia en Inca en el servicio de Admisión', 5, 2, 4, 3, 4, 2, 7, 8, '2024-06-20 10:30:00'),
+(67, '145067', 'Incidencia en Inca en el servicio de Quirófano', 5, 2, 5, 3, 4, 2, 3, 1, '2024-06-20 10:40:00'),
+(68, '145068', 'Incidencia en Inca en el servicio de Consultas Externas', 3, 2, 3, 3, 4, 2, 2, 3, '2024-06-20 10:50:00'),
+(69, '145069', 'Incidencia en Inca en el servicio de Enfermería', 5, 2, 2, 3, 4, 2, 6, 8, '2024-06-20 11:00:00'),
+(70, '145070', 'Incidencia en Inca en el servicio de Gestión de Peticiones', 4, 2, 7, 3, 4, 2, 4, 2, '2024-06-20 11:10:00'),
+(71, '145071', 'Problema en Inca en el servicio de Gestión Usuarios', 5, 5, 6, 4, 4, 2, 5, 4, '2024-06-20 11:20:00'),
+(72, '145072', 'Problema en Inca en el servicio de SISN2', 3, 5, 1, 4, 4, 2, 8, 5, '2024-06-20 11:30:00'),
+(73, '145073', 'Solicitud de Servicio en Inca en el servicio de Admisión', 4, 3, 4, 3, 4, 2, 9, 6, '2024-06-20 11:40:00'),
+(74, '145074', 'Solicitud de Servicio en Inca en el servicio de Quirófano', 5, 3, 5, 3, 4, 2, 1, 7, '2024-06-20 11:50:00'),
+(75, '145075', 'Solicitud de Cambio en Inca en el servicio de Gestión de Peticiones', 3, 8, 7, 3, 4, 2, 10, 1, '2024-06-20 12:00:00');
+
+INSERT INTO TICKET (id, tn, title, queue_id, type_id, service_id, ticket_priority_id, ticket_state_id, centro, user_id, create_by, create_time) VALUES
+(76, '145076', 'Incidencia en Can Misses en el servicio de Admisión', 5, 2, 4, 3, 4, 5, 7, 8, '2024-06-20 12:10:00'),
+(77, '145077', 'Incidencia en Can Misses en el servicio de Quirófano', 5, 2, 5, 3, 4, 5, 3, 1, '2024-06-20 12:20:00'),
+(78, '145078', 'Incidencia en Can Misses en el servicio de Consultas Externas', 3, 2, 3, 3, 4, 5, 2, 3, '2024-06-20 12:30:00'),
+(79, '145079', 'Incidencia en Can Misses en el servicio de Enfermería', 5, 2, 2, 3, 4, 5, 6, 8, '2024-06-20 12:40:00'),
+(80, '145080', 'Problema en Can Misses en el servicio de Gestión de Peticiones', 4, 5, 7, 4, 4, 5, 4, 2, '2024-06-20 12:50:00'),
+(81, '145081', 'Problema en Can Misses en el servicio de Gestión Usuarios', 5, 5, 6, 4, 4, 5, 5, 4, '2024-06-20 13:00:00'),
+(82, '145082', 'Solicitud de Servicio en Can Misses en el servicio de SISN2', 3, 3, 1, 3, 4, 5, 8, 5, '2024-06-20 13:10:00'),
+(83, '145083', 'Solicitud de Cambio en Can Misses en el servicio de Admisión', 4, 8, 4, 3, 4, 5, 9, 6, '2024-06-20 13:20:00');
+
+INSERT INTO TICKET (id, tn, title, queue_id, type_id, service_id, ticket_priority_id, ticket_state_id, centro, user_id, create_by, create_time) VALUES
+(84, '145084', 'Incidencia en Mateu Orfila en el servicio de Gestión de Peticiones', 5, 2, 7, 3, 4, 4, 7, 8, '2024-06-20 13:30:00'),
+(85, '145085', 'Incidencia en Mateu Orfila en el servicio de Gestión Usuarios', 5, 2, 6, 3, 4, 4, 3, 1, '2024-06-20 13:40:00'),
+(86, '145086', 'Problema en Mateu Orfila en el servicio de SISN2', 3, 5, 1, 4, 4, 4, 2, 3, '2024-06-20 13:50:00'),
+(87, '145087', 'Solicitud de Servicio en Mateu Orfila en el servicio de Admisión', 4, 3, 4, 3, 4, 4, 6, 8, '2024-06-20 14:00:00'),
+(88, '145088', 'Solicitud de Cambio en Mateu Orfila en el servicio de Quirófano', 3, 8, 5, 3, 4, 4, 4, 2, '2024-06-20 14:10:00');
+
+INSERT INTO TICKET (id, tn, title, queue_id, type_id, service_id, ticket_priority_id, ticket_state_id, centro, user_id, create_by, create_time) VALUES
+(89, '145089', 'Incidencia en Manacor en el servicio de Admisión', 5, 2, 4, 3, 4, 3, 7, 8, '2024-06-20 14:20:00'),
+(90, '145090', 'Incidencia en Manacor en el servicio de Quirófano', 5, 2, 5, 3, 4, 3, 3, 1, '2024-06-20 14:30:00'),
+(91, '145091', 'Problema en Manacor en el servicio de Consultas Externas', 3, 5, 3, 4, 4, 3, 2, 3, '2024-06-20 14:40:00'),
+(92, '145092', 'Solicitud de Servicio en Manacor en el servicio de Enfermería', 5, 3, 2, 3, 4, 3, 6, 8, '2024-06-20 14:50:00'),
+(93, '145093', 'Solicitud de Servicio en Manacor en el servicio de Gestión de Peticiones', 4, 3, 7, 3, 4, 3, 4, 2, '2024-06-20 15:00:00'),
+(94, '145094', 'Solicitud de Cambio en Manacor en el servicio de Gestión Usuarios', 3, 8, 6, 3, 4, 3, 5, 4, '2024-06-20 15:10:00');
+
+-- Realizamos cambio de horas para mejorar la visualización de los estados
+-- Dia 1: 2024-05-25 (10 tickets)
+UPDATE TICKET SET create_time = '2024-05-25 08:00:00' WHERE id = 1;
+UPDATE TICKET SET create_time = '2024-05-25 08:30:00' WHERE id = 2;
+UPDATE TICKET SET create_time = '2024-05-25 09:00:00' WHERE id = 3;
+UPDATE TICKET SET create_time = '2024-05-25 09:30:00' WHERE id = 4;
+UPDATE TICKET SET create_time = '2024-05-25 10:00:00' WHERE id = 5;
+UPDATE TICKET SET create_time = '2024-05-25 10:30:00' WHERE id = 6;
+UPDATE TICKET SET create_time = '2024-05-25 11:00:00' WHERE id = 7;
+UPDATE TICKET SET create_time = '2024-05-25 11:30:00' WHERE id = 8;
+UPDATE TICKET SET create_time = '2024-05-25 12:00:00' WHERE id = 9;
+UPDATE TICKET SET create_time = '2024-05-25 12:30:00' WHERE id = 10;
+
+-- Dia 2: 2024-05-26 (10 tickets)
+UPDATE TICKET SET create_time = '2024-05-26 08:00:00' WHERE id = 11;
+UPDATE TICKET SET create_time = '2024-05-26 08:30:00' WHERE id = 12;
+UPDATE TICKET SET create_time = '2024-05-26 09:00:00' WHERE id = 13;
+UPDATE TICKET SET create_time = '2024-05-26 09:30:00' WHERE id = 14;
+UPDATE TICKET SET create_time = '2024-05-26 10:00:00' WHERE id = 15;
+UPDATE TICKET SET create_time = '2024-05-26 10:30:00' WHERE id = 16;
+UPDATE TICKET SET create_time = '2024-05-26 11:00:00' WHERE id = 17;
+UPDATE TICKET SET create_time = '2024-05-26 11:30:00' WHERE id = 18;
+UPDATE TICKET SET create_time = '2024-05-26 12:00:00' WHERE id = 19;
+UPDATE TICKET SET create_time = '2024-05-26 12:30:00' WHERE id = 20;
+
+-- Dia 3: 2024-05-27 (10 tickets)
+UPDATE TICKET SET create_time = '2024-05-27 08:00:00' WHERE id = 21;
+UPDATE TICKET SET create_time = '2024-05-27 08:30:00' WHERE id = 22;
+UPDATE TICKET SET create_time = '2024-05-27 09:00:00' WHERE id = 23;
+UPDATE TICKET SET create_time = '2024-05-27 09:30:00' WHERE id = 24;
+UPDATE TICKET SET create_time = '2024-05-27 10:00:00' WHERE id = 25;
+UPDATE TICKET SET create_time = '2024-05-27 10:30:00' WHERE id = 26;
+UPDATE TICKET SET create_time = '2024-05-27 11:00:00' WHERE id = 27;
+UPDATE TICKET SET create_time = '2024-05-27 11:30:00' WHERE id = 28;
+UPDATE TICKET SET create_time = '2024-05-27 12:00:00' WHERE id = 29;
+UPDATE TICKET SET create_time = '2024-05-27 12:30:00' WHERE id = 30;
+
+-- Dia 4: 2024-05-28 (20 tickets)
+UPDATE TICKET SET create_time = '2024-05-28 08:00:00' WHERE id = 31;
+UPDATE TICKET SET create_time = '2024-05-28 08:15:00' WHERE id = 32;
+UPDATE TICKET SET create_time = '2024-05-28 08:30:00' WHERE id = 33;
+UPDATE TICKET SET create_time = '2024-05-28 08:45:00' WHERE id = 34;
+UPDATE TICKET SET create_time = '2024-05-28 09:00:00' WHERE id = 35;
+UPDATE TICKET SET create_time = '2024-05-28 09:15:00' WHERE id = 36;
+UPDATE TICKET SET create_time = '2024-05-28 09:30:00' WHERE id = 37;
+UPDATE TICKET SET create_time = '2024-05-28 09:45:00' WHERE id = 38;
+UPDATE TICKET SET create_time = '2024-05-28 10:00:00' WHERE id = 39;
+UPDATE TICKET SET create_time = '2024-05-28 10:15:00' WHERE id = 40;
+UPDATE TICKET SET create_time = '2024-05-28 10:30:00' WHERE id = 41;
+UPDATE TICKET SET create_time = '2024-05-28 10:45:00' WHERE id = 42;
+UPDATE TICKET SET create_time = '2024-05-28 11:00:00' WHERE id = 43;
+UPDATE TICKET SET create_time = '2024-05-28 11:15:00' WHERE id = 44;
+UPDATE TICKET SET create_time = '2024-05-28 11:30:00' WHERE id = 45;
+UPDATE TICKET SET create_time = '2024-05-28 11:45:00' WHERE id = 46;
+UPDATE TICKET SET create_time = '2024-05-28 12:00:00' WHERE id = 47;
+UPDATE TICKET SET create_time = '2024-05-28 12:15:00' WHERE id = 48;
+UPDATE TICKET SET create_time = '2024-05-28 12:30:00' WHERE id = 49;
+UPDATE TICKET SET create_time = '2024-05-28 12:45:00' WHERE id = 50;
+
+-- Dia 5: 2024-05-29 (10 tickets)
+UPDATE TICKET SET create_time = '2024-05-29 08:00:00' WHERE id = 51;
+UPDATE TICKET SET create_time = '2024-05-29 08:30:00' WHERE id = 52;
+UPDATE TICKET SET create_time = '2024-05-29 09:00:00' WHERE id = 53;
+UPDATE TICKET SET create_time = '2024-05-29 09:30:00' WHERE id = 54;
+UPDATE TICKET SET create_time = '2024-05-29 10:00:00' WHERE id = 55;
+UPDATE TICKET SET create_time = '2024-05-29 10:30:00' WHERE id = 56;
+UPDATE TICKET SET create_time = '2024-05-29 11:00:00' WHERE id = 57;
+UPDATE TICKET SET create_time = '2024-05-29 11:30:00' WHERE id = 58;
+UPDATE TICKET SET create_time = '2024-05-29 12:00:00' WHERE id = 59;
+UPDATE TICKET SET create_time = '2024-05-29 12:30:00' WHERE id = 60;
+
+-- Dia 6: 2024-05-30 (20 tickets )
+UPDATE TICKET SET create_time = '2024-05-30 08:00:00' WHERE id = 61;
+UPDATE TICKET SET create_time = '2024-05-30 08:15:00' WHERE id = 62;
+UPDATE TICKET SET create_time = '2024-05-30 08:30:00' WHERE id = 63;
+UPDATE TICKET SET create_time = '2024-05-30 08:45:00' WHERE id = 64;
+UPDATE TICKET SET create_time = '2024-05-30 09:00:00' WHERE id = 65;
+UPDATE TICKET SET create_time = '2024-05-30 09:15:00' WHERE id = 66;
+UPDATE TICKET SET create_time = '2024-05-30 09:30:00' WHERE id = 67;
+UPDATE TICKET SET create_time = '2024-05-30 09:45:00' WHERE id = 68;
+UPDATE TICKET SET create_time = '2024-05-30 10:00:00' WHERE id = 69;
+UPDATE TICKET SET create_time = '2024-05-30 10:15:00' WHERE id = 70;
+UPDATE TICKET SET create_time = '2024-05-30 10:30:00' WHERE id = 71;
+UPDATE TICKET SET create_time = '2024-05-30 10:45:00' WHERE id = 72;
+UPDATE TICKET SET create_time = '2024-05-30 11:00:00' WHERE id = 73;
+UPDATE TICKET SET create_time = '2024-05-30 11:15:00' WHERE id = 74;
+UPDATE TICKET SET create_time = '2024-05-30 11:30:00' WHERE id = 75;
+UPDATE TICKET SET create_time = '2024-05-30 11:45:00' WHERE id = 76;
+UPDATE TICKET SET create_time = '2024-05-30 12:00:00' WHERE id = 77;
+UPDATE TICKET SET create_time = '2024-05-30 12:15:00' WHERE id = 78;
+UPDATE TICKET SET create_time = '2024-05-30 12:30:00' WHERE id = 79;
+UPDATE TICKET SET create_time = '2024-05-30 12:45:00' WHERE id = 80;
+
+-- Dia 7: 2024-05-31 (14 tickets)
+UPDATE TICKET SET create_time = '2024-05-31 08:00:00' WHERE id = 81;
+UPDATE TICKET SET create_time = '2024-05-31 08:30:00' WHERE id = 82;
+UPDATE TICKET SET create_time = '2024-05-31 09:00:00' WHERE id = 83;
+UPDATE TICKET SET create_time = '2024-05-31 09:30:00' WHERE id = 84;
+UPDATE TICKET SET create_time = '2024-05-31 10:00:00' WHERE id = 85;
+UPDATE TICKET SET create_time = '2024-05-31 10:30:00' WHERE id = 86;
+UPDATE TICKET SET create_time = '2024-05-31 11:00:00' WHERE id = 87;
+UPDATE TICKET SET create_time = '2024-05-31 11:30:00' WHERE id = 88;
+UPDATE TICKET SET create_time = '2024-05-31 12:00:00' WHERE id = 89;
+UPDATE TICKET SET create_time = '2024-05-31 12:30:00' WHERE id = 90;
+UPDATE TICKET SET create_time = '2024-05-31 13:00:00' WHERE id = 91;
+UPDATE TICKET SET create_time = '2024-05-31 13:30:00' WHERE id = 92;
+UPDATE TICKET SET create_time = '2024-05-31 14:00:00' WHERE id = 93;
+UPDATE TICKET SET create_time = '2024-05-31 14:30:00' WHERE id = 94;
+
+
