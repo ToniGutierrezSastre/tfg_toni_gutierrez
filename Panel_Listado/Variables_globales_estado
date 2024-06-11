@@ -1,0 +1,17 @@
+-- Cola
+Select QUEUE.name from QUEUE where QUEUE.valid_id = '1'
+
+-- Centro
+Select CENTRO.name from CENTRO where CENTRO.valid_id = '1'
+
+-- Servicio
+Select CENTRO.name from CENTRO where SERVICIO.valid_id = '1'
+
+-- Prioridad
+Select TICKET_PRIORITY.name from TICKET_PRIORITY where TICKET_PRIORITY.valid_id = '1'
+
+-- Estado
+Select TICKET_STATE.name from TICKET_STATE where TICKET_STATE.valid_id = '1'
+
+-- Tipo
+Select TICKET_TYPE.name from TICKET_TYPE where TICKET_TYPE.valid_id = '1'
