@@ -1,0 +1,17 @@
+SELECT SERVICE.name AS metric,
+count(TICKET.tn) AS value,
+DATE(TICKET.create_time) AS time_sec
+
+FROM TICKET
+JOIN CENTRO ON TICKET.centro = CENTRO.id
+JOIN QUEUE ON TICKET.queue_id = QUEUE.id
+JOIN SERVICE ON TICKET.service_id = SERVICE.id
+JOIN TICKET_PRIORITY ON TICKET.ticket_priority_id = TICKET_PRIORITY.id
+JOIN TICKET_STATE ON TICKET.ticket_state_id = TICKET_STATE.id
+JOIN TICKET_TYPE ON TICKET.type_id = TICKET_TYPE.id
+
+WHERE
+
+$__timeFilter(TICKET.create_time)
+GROUP BY metric, UNIX_TIMESTAMP(TICKET.create_time) DIV 86400
+ORDER BY TICKET.create_time asc 
