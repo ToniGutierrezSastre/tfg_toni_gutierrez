@@ -1,0 +1,53 @@
+-- Crear tabla QUEUE  
+
+CREATE TABLE QUEUE ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla TICKET_TYPE  
+
+CREATE TABLE TICKET_TYPE ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla SERVICE  
+
+CREATE TABLE SERVICE ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla TICKET_PRIORITY 
+
+ CREATE TABLE TICKET_PRIORITY ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla TICKET_STATE  
+
+CREATE TABLE TICKET_STATE ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla USER  
+
+CREATE TABLE USER ( id INT PRIMARY KEY, login VARCHAR(255) NOT NULL, first_name VARCHAR(255) NOT NULL, last_name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla CENTRO  
+
+CREATE TABLE CENTRO ( id INT PRIMARY KEY, name VARCHAR(255) NOT NULL, valid_id INT );  
+
+ 
+
+-- Crear tabla TICKET  
+
+CREATE TABLE TICKET ( id INT PRIMARY KEY, tn VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, queue_id INT, type_id INT, service_id INT, ticket_priority_id INT, ticket_state_id INT, centro INT, user_id INT, create_by VARCHAR(255), create_time TIMESTAMP NOT NULL,  
+
+FOREIGN KEY (queue_id) REFERENCES QUEUE(id), 
+FOREIGN KEY (type_id) REFERENCES TICKET_TYPE(id), 
+FOREIGN KEY (service_id) REFERENCES SERVICE(id), 
+FOREIGN KEY (ticket_priority_id) REFERENCES TICKET_PRIORITY(id),
+FOREIGN KEY (ticket_state_id) REFERENCES TICKET_STATE(id), 
+FOREIGN KEY (centro) REFERENCES CENTRO(id), 
+FOREIGN KEY (user_id) REFERENCES USER(id) ); 
